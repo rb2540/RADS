@@ -39,7 +39,7 @@ These values are entered when creating a Reddit instance, as in the load_reddit(
 A "user_agent" must also entered. This is a unique identifier that helps Reddit determine the source of network
 requests. The PRAW's documentation suggest the following format for user agent:
 
-* <platform>:<app ID>:<version string> (by /u/<Reddit username>)
+* \<platform>:\<app ID>:\<version string> (by /u/<Reddit username>)
 
 For example:
 
