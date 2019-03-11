@@ -57,11 +57,7 @@ For example:
  * Selecting the subreddits to scrape can be specified as a command-line argument, or hard-coded. This is 
    set in main(). The script already uses hard-coded subreddits. Simply change the 'subred' string to contain
    subreddits you wish to scrape, with each subreddit separated by a '+'. The command-line method is included
-   but commented out. To use this method, simply un-comment the line '#subred = sys.argv[1]' and remove the 
-   following line. The subreddits will then be selected from the command-line when running the script.   
-   For example:
-
-   C:\>python3 Reddit_Submission_Scraper.py AskReddit+Pics+Gifs+Poliitics
+   but commented out. 
 
 
 ## AUTHORS
