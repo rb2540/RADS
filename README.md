@@ -2,16 +2,16 @@
 ---------------------
 * [Reddit Score Forecast](#reddit-score-forecast)
 * [Submission Scraper](#submission-scraper)
-   * Requirements
-   * Configuration
+   * [Requirements](#requirements)
+   * [Configuration](#configuration)
  
-## Reddit Score Forecast
+# Reddit Score Forecast
 ------------
 
 Content aggregators collect content from across the web in order to attract internet traffic, creating revenue through advertisements. These aggregator websites compete to identify viral content early to maximize their share of the internet traffic. This project focused on analyzing real-time post data from Reddit, a collection of re-posts and original content, to identify posts that would become viral. The problem was framed as a binary classification problem where a viral Reddit post had a score equal or greater than 3656. In order to predict posts which posts will become viral, logistic regression and random forest models were run on Reddit submission data obtained from several days of continuously scraping data. In addition to hyperparameter tuning and feature engineering, one hot encoding using character-embedding was stacked onto the classification models to further improve model performance. The models provide reliable predictions of potentially viral posts, laying the foundation for building a robust and computationally-efficient pipeline in a real business setting.
 
 
-## Submission Scraper
+# Submission Scraper
 ------------
 
 This script scrapes Reddit submissions in real-time, from a list of specified subreddits, and gets updated
@@ -65,7 +65,7 @@ For example:
    but commented out. 
 
 
-## AUTHORS
+## Authors
 -------
 
 Reddit_Submission_Scraper.py developed by Ross Bernstein, as part of a team project in conjunction with
